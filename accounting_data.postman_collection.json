@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "cd545341-5f06-4bb0-8fb0-2661c74e5b90",
+		"name": "accounting_data",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:5000/accounting_data",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "content-type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"gvkey\": \"1001,1003\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:5000/accounting_data",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"accounting_data"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

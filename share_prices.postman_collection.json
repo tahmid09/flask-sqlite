@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "89558a5c-b737-43c6-9d68-c4480efbaf04",
+		"name": "share_prices",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:5000/share_prices",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "content-type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"tic\": \"AMFD.\",\r\n    \"from_date\": \"11/22/1980\",\r\n    \"to_date\": \"11/22/2023\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:5000/share_prices",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"share_prices"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

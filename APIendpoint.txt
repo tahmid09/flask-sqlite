@@ -1,0 +1,13 @@
+API END POINT :
+
+http://localhost:5000/all_companies/
+
+http://localhost:5000/share_prices
+{
+    "gvkey": "1001,1003"
+}
+
+http://localhost:5000/accounting_data
+{
+    "gvkey": "1001,1003"
+}
